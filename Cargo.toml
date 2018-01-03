@@ -1,0 +1,22 @@
+[package]
+name = "arrow"
+version = "0.1.0"
+authors = ["Sam Baxter <sbaxter@cs.umass.edu>"]
+
+description = "Functional programming traits and monadic/arrow interpreter"
+
+repository = "https://github.com/baxtersa/arrow"
+readme = "README.md"
+license = "BSD 3-Clause"
+
+keywords = ["Functional programming", "Monads", "Arrows", "Category theory"]
+
+[dependencies]
+
+[lib]
+name = "arrow"
+path = "src/lib.rs"
+
+[[bin]]
+name = "arrow"
+path = "src/main.rs"
